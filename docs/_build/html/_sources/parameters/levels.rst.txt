@@ -119,3 +119,15 @@ Building on other Levels
         :width: 50%
 
         Here, one plating level is being built onto another, with the green level being applied to the tops and sides of the base purple level.  The **Minimum Face Area** property is used to stop the effect being applied to smaller faces (such as some of the smaller sides).
+
+
+**********************************
+Changing Other Properties
+**********************************
+
+When you click a level, it gets selected and the associated :ref:`Properties` appear in the panel below it:
+
+.. figure:: ../images/levels_nav.gif
+    :alt: Levels Control Panel
+
+Each of the different properties are described in :ref:`this section<Properties>`.
