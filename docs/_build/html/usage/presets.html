@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Presets &mdash; Plating Generator  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Greeble Libraries" href="../greeble_libraries/greeble_library.html" />
+    <link rel="prev" title="Update/Copy/Select" href="../selection/updating_selection.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Plating Generator
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parameters/panel_controls.html">Control Panel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parameters/levels.html">Levels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parameters/properties.html">Properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../selection/updating_selection.html">Update/Copy/Select</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Presets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#non-destructive-workflow-presets"><span class="xref std std-ref">Non Destructive Workflow</span> Presets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#add-a-preset">Add a Preset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#delete-a-preset">Delete a Preset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#apply-a-preset">Apply a Preset</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#destructive-workflow-presets"><span class="xref std std-ref">Destructive Workflow</span> Presets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#add-preset">Add Preset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#delete-preset">Delete Preset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#apply-preset">Apply Preset</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../greeble_libraries/greeble_library.html">Greeble Libraries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anim_nodes/anim_nodes_overview.html">Animation Nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact/contact.html">Contact</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Plating Generator</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Presets</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/usage/presets.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="presets">
+<h1>Presets<a class="headerlink" href="#presets" title="Permalink to this headline"></a></h1>
+<figure class="align-default" id="id1">
+<img alt="Example Preset" src="../_images/preset_demo.gif" />
+<figcaption>
+<p><span class="caption-text">An example of using presets to automatically apply random heights</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>When you have set up plating or greeble pattern you like, you can save your settings as a preset that you can then re-use.</p>
+<figure class="align-default">
+<img alt="Preset Menus example" src="../_images/preset_menu_eg.jpg" />
+</figure>
+<section id="non-destructive-workflow-presets">
+<h2><a class="reference internal" href="quickstart.html#non-destructive-workflow"><span class="std std-ref">Non Destructive Workflow</span></a> Presets<a class="headerlink" href="#non-destructive-workflow-presets" title="Permalink to this headline"></a></h2>
+<p>These are accessed in the top right of the Plating Generator Panel:</p>
+<figure class="align-default" id="id2">
+<img alt="Preset Menu location on panel" src="../_images/presets_panel_menu.jpg" />
+<figcaption>
+<p><span class="caption-text">Preset Menu location on panel</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<section id="add-a-preset">
+<h3>Add a Preset<a class="headerlink" href="#add-a-preset" title="Permalink to this headline"></a></h3>
+<p>Enter a name for the preset in the bottom of the menu and click the <strong>+</strong> button next to it.</p>
+<figure class="align-default" id="id3">
+<img alt="Adding a preset" src="../_images/preset_add.gif" />
+<figcaption>
+<p><span class="caption-text">Adding a Preset</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="delete-a-preset">
+<h3>Delete a Preset<a class="headerlink" href="#delete-a-preset" title="Permalink to this headline"></a></h3>
+<p>Click the <strong>-</strong> button next to the entry in the menu.</p>
+<figure class="align-default" id="id4">
+<img alt="Deleting a preset" src="../_images/preset_del.gif" />
+<figcaption>
+<p><span class="caption-text">Deleting a Preset</span><a class="headerlink" href="#id4" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="apply-a-preset">
+<h3>Apply a Preset<a class="headerlink" href="#apply-a-preset" title="Permalink to this headline"></a></h3>
+<p>With a Plating Object selected, click the name of the entry in the Presets menu:</p>
+<figure class="align-default" id="id5">
+<img alt="Applying a preset" src="../_images/preset_apply.gif" />
+<figcaption>
+<p><span class="caption-text">Applying a Preset</span><a class="headerlink" href="#id5" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="destructive-workflow-presets">
+<h2><a class="reference internal" href="quickstart.html#destructive-workflow"><span class="std std-ref">Destructive Workflow</span></a> Presets<a class="headerlink" href="#destructive-workflow-presets" title="Permalink to this headline"></a></h2>
+<section id="add-preset">
+<h3>Add Preset<a class="headerlink" href="#add-preset" title="Permalink to this headline"></a></h3>
+<p>Press the <strong>+</strong> button at the top of the pop-up menu, enter a name for the preset and click ‘OK’.</p>
+<figure class="align-default" id="id6">
+<img alt="Adding a preset" src="../_images/preset_d_add.jpg" />
+<figcaption>
+<p><span class="caption-text">Adding a Preset</span><a class="headerlink" href="#id6" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="delete-preset">
+<h3>Delete Preset<a class="headerlink" href="#delete-preset" title="Permalink to this headline"></a></h3>
+<p>With the Preset loaded, click the <strong>-</strong> button next to the preset dropdown.</p>
+<figure class="align-default" id="id7">
+<img alt="Deleting a preset" src="../_images/preset_d_del.jpg" />
+<figcaption>
+<p><span class="caption-text">Deleting a Preset</span><a class="headerlink" href="#id7" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="apply-preset">
+<h3>Apply Preset<a class="headerlink" href="#apply-preset" title="Permalink to this headline"></a></h3>
+<p>With a Plating Object selected, click the name of the entry in the Presets menu:</p>
+<figure class="align-default" id="id8">
+<img alt="Applying a preset" src="../_images/preset_d_apply.jpg" />
+<figcaption>
+<p><span class="caption-text">Applying a Preset</span><a class="headerlink" href="#id8" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../selection/updating_selection.html" class="btn btn-neutral float-left" title="Update/Copy/Select" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../greeble_libraries/greeble_library.html" class="btn btn-neutral float-right" title="Greeble Libraries" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Mark Kingsnorth.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -88,8 +88,11 @@ This add-on greatly speeds up the process, allowing you to quickly create a sele
    parameters/panel_controls
    parameters/levels
    parameters/properties
+   selection/updating_selection
+   usage/presets
    greeble_libraries/greeble_library
    anim_nodes/anim_nodes_overview
+   iterator/iterator
    contact/contact
 
 Indices and tables

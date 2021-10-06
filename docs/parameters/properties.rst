@@ -8,8 +8,3 @@ Properties
 
    properties/plating_props
    properties/greeble_props
-
-
-
-TODO PRESETS
-TODO Updating selection
