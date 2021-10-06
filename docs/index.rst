@@ -79,8 +79,6 @@ This add-on greatly speeds up the process, allowing you to quickly create a sele
 
 
 
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -90,6 +88,8 @@ This add-on greatly speeds up the process, allowing you to quickly create a sele
    parameters/panel_controls
    parameters/levels
    parameters/properties
+   greeble_libraries/greeble_library
+   anim_nodes/anim_nodes_overview
    contact/contact
 
 Indices and tables
@@ -98,3 +98,10 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+
+.. footer:: This is a test
+
+
+ 

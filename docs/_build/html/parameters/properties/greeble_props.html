@@ -17,7 +17,9 @@
         <script src="../../_static/doctools.js"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" /> 
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Contact" href="../../contact/contact.html" />
+    <link rel="prev" title="Plating Properties" href="plating_props.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -36,12 +38,28 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../usage/installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../usage/quickstart.html">Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../panel_controls.html">Control Panel</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../levels.html">Levels</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../properties.html">Properties</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../properties.html">Properties</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="plating_props.html">Plating Properties</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Greeble Properties</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#general-properties-greebles">General Properties: Greebles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#greeble-pattern">Greeble Pattern</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#overlapping">Overlapping</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#non-overlapping">Non-Overlapping</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#greeble-general-parameters">Greeble General Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#greeble-objects-from-library">Greeble Objects from Library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#greeble-objects-from-scene">Greeble Objects From Scene</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#greeble-orientation">Greeble Orientation</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../../contact/contact.html">Contact</a></li>
 </ul>
 
@@ -59,6 +77,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../properties.html">Properties</a> &raquo;</li>
       <li>Greeble Properties</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/parameters/properties/greeble_props.rst.txt" rel="nofollow"> View page source</a>
@@ -71,12 +90,173 @@
              
   <section id="greeble-properties">
 <h1>Greeble Properties<a class="headerlink" href="#greeble-properties" title="Permalink to this headline"></a></h1>
+<figure class="align-default">
+<img alt="Greebles Control Panel" src="../../_images/greeble_pic.png" />
+</figure>
+<p>The Greeble objects are aligned randomly onto quad faces. The overall shape of each greeble is deformed to follow the face it is being placed on unless the <strong>Maintain Aspect Ratio</strong> property is checked.</p>
+<figure class="align-default" id="id1">
+<img alt="Greebles Control Panel" src="../../_images/prop_greebles.jpg" />
+<figcaption>
+<p><span class="caption-text">Main properties panel for adding greebles.</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<section id="general-properties-greebles">
+<h2>General Properties: Greebles<a class="headerlink" href="#general-properties-greebles" title="Permalink to this headline"></a></h2>
+<figure class="align-default" id="id2">
+<img alt="Levels Panel" src="../../_images/prop_greeble_levels.jpg" />
+<figcaption>
+<p><span class="caption-text">Greeble General Properties</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p><strong>Level Color</strong>: Color to denote level for organisational purposes.  Has no direct effect on object.</p></li>
+<li><p><strong>Level Name</strong>: The name of the <a class="reference internal" href="../levels.html#levels"><span class="std std-ref">Level</span></a> for these properties.</p></li>
+<li><p><strong>Enabled Checkbox</strong>: Whether the <a class="reference internal" href="../levels.html#levels"><span class="std std-ref">Level</span></a> is activated or not.</p></li>
+<li><p><strong>Plates/Greebles</strong>: Whether we are creating Plates or Greebles.</p></li>
+<li><p><strong>Minimum Face Area</strong>: the minimum size of the face to apply the effect to.  Good for avoiding small areas of an object.</p></li>
+</ul>
+</section>
+<section id="greeble-pattern">
+<h2>Greeble Pattern<a class="headerlink" href="#greeble-pattern" title="Permalink to this headline"></a></h2>
+<img alt="Greebles Pattern Panel" src="../../_images/prop_greeble_pattern.png" />
+<ul>
+<li><p><strong>Mode</strong>: This has the following options:</p>
+<ul>
+<li><p><strong>Overlapping</strong>: The greeble objects are randomly placed on a face and can overlap.</p>
+<blockquote>
+<div><img alt="Overlapping" src="../../_images/prop_overlapping.png" />
+</div></blockquote>
+</li>
+<li><p><strong>Non-Overlapping</strong>: The greeble objects are placed so that they do not overlap.</p>
+<blockquote>
+<div><img alt="Non Overlapping" src="../../_images/prop_nonoverlapping.png" />
+</div></blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<p>Each mode has different parameters because each uses a different approach to placing the objects:</p>
+<section id="overlapping">
+<h3>Overlapping<a class="headerlink" href="#overlapping" title="Permalink to this headline"></a></h3>
+<img alt="Overlapping Panel" src="../../_images/prop_overlapping_pnl.png" />
+<ul class="simple">
+<li><p><strong>Greeble Random Seed</strong>: by changing this value, you will create different random patterns.</p></li>
+<li><p><strong>Greeble Amount</strong>: The number of greeble objects to be put on the object.</p></li>
+</ul>
+</section>
+<section id="non-overlapping">
+<h3>Non-Overlapping<a class="headerlink" href="#non-overlapping" title="Permalink to this headline"></a></h3>
+<img alt="Non Overlapping Panel" src="../../_images/prop_nonoverlapping_pnl.png" />
+<ul class="simple">
+<li><p><strong>Greeble Random Seed</strong>: by changing this value, you will create different random patterns.</p></li>
+<li><p><strong>Overall Coverage %</strong>: The percentage covering the object.</p></li>
+<li><p><strong>Greeble Division Levels</strong>: Each face will be allocated spaces for the greebles.  Higher levels means more objects will be fit onto each face. The user interface is restricted but you can enter higher values.</p></li>
+<li><p><strong>Greeble Deviation</strong>: This is how much each greeble’s size varies on a face. A value of 0 will create a uniform set of sizes, where a value of 1.0 will create irregular sizes.</p></li>
+</ul>
+</section>
+</section>
+<section id="greeble-general-parameters">
+<h2>Greeble General Parameters<a class="headerlink" href="#greeble-general-parameters" title="Permalink to this headline"></a></h2>
+<img alt="Greeble General Parameters" src="../../_images/prop_greeble_gen_parms.png" />
+<ul class="simple">
+<li><p><strong>Min Width</strong>: The minimum width of a greeble object relative to the face it is on.</p></li>
+<li><p><strong>Max Width</strong>: The maximum width of a greeble object relative to the face it is on.</p></li>
+<li><p><strong>Min Length</strong>: The minimum length of a greeble object relative to the face it is on.</p></li>
+<li><p><strong>Max Length</strong>: The maximum length of a greeble object relative to the face it is on.</p></li>
+<li><p><strong>Min Height</strong>: The minimum height of a greeble object relative to the face it is on.</p></li>
+<li><p><strong>Max Height</strong>: The maximum height of a greeble object relative to the face it is on.</p></li>
+</ul>
+</section>
+<section id="greeble-objects-from-library">
+<h2>Greeble Objects from Library<a class="headerlink" href="#greeble-objects-from-library" title="Permalink to this headline"></a></h2>
+<img alt="Greeble Objects from Library Parameters" src="../../_images/prop_greeble_library.png" />
+<img alt="Greeble Objects from Library Close Up" src="../../_images/prop_greeble_library_close.png" />
+<p>There are several basic objects supplied as a default greeble library to create Greeble effects from.  You can choose to add squares in different patterns, L shapes, T shapes, or cylinders.</p>
+<img alt="Greeble Objects from Library Entry" src="../../_images/prop_greeble_lib_entry.png" />
+<p>There are settings for each object and by hovering the mouse you should see a description for each one. They are:</p>
+<img alt="Greeble Thumbnail" src="../../_images/prop_greeble_thumb.png" />
+<ul class="simple">
+<li><p><strong>A thumbnail of the greeble</strong>:. Clicking on this thumbnail shows you which other objects you can choose from within that greeble library.</p></li>
+</ul>
+<img alt="Greeble Dropdown" src="../../_images/prop_greeble_dropdown.png" />
+<ul class="simple">
+<li><p><strong>A drop down menu</strong> showing which greeble library the object comes from. If you have other greeble libraries installed, you can select them here.</p></li>
+</ul>
+<img alt="Maintain Aspect Ratio" src="../../_images/prop_greeble_mar.png" />
+<ul class="simple">
+<li><p><strong>Maintain Aspect Ratio</strong>: This will keep the proportions of the object’s width and height in case you do not want the object stretched.</p></li>
+</ul>
+<img alt="Material Index" src="../../_images/prop_greeble_mat_id.png" />
+<ul>
+<li><p><strong>Material Index</strong>: Override the material on the greeble with a material index slot.  By default, these objects will inherit the material of the object. Values of -1 will not override the material.</p>
+<blockquote>
+<div><img alt="Material Index Expanded" src="../../_images/prop_greeble_mat_id_expanded.png" />
+</div></blockquote>
+</li>
+</ul>
+<img alt="Height Override" src="../../_images/prop_greelbe_height_override.png" />
+<ul>
+<li><p><strong>Height Override</strong>: This will automatically override the height of each greeble so that you can stop shapes stretching unnecessarily.</p>
+<blockquote>
+<div><img alt="Height Override Expanded" src="../../_images/prop_greelbe_height_override_expanded.png" />
+</div></blockquote>
+</li>
+</ul>
+<img alt="Coverage" src="../../_images/prop_greeble_coverage.png" />
+<ul class="simple">
+<li><p><strong>Coverage:</strong> This controls the amount this Greeble will cover the surface relative to the total number of greebles set under the ‘Greeble Pattern’ section. This allows you to adjust the relative amount of each object on the total number of greeble objects.  For instance, if you have 50% L shapes and 100% T shapes, the effect will roughly have half as many L shapes as T shapes.</p></li>
+</ul>
+<p>These parameters also apply to <a class="reference internal" href="#greeble-objects-from-scene"><span class="std std-ref">Greeble Objects From Scene</span></a>.</p>
+</section>
+<section id="greeble-objects-from-scene">
+<h2>Greeble Objects From Scene<a class="headerlink" href="#greeble-objects-from-scene" title="Permalink to this headline"></a></h2>
+<p>The add-on allows you to add your own greebles from scene objects.</p>
+<img alt="Greeble Objects From Scene" src="../../_images/greeble_bojects_from_scene.png" />
+<img alt="Greeble Objects From Scene Properties" src="../../_images/prop_greeble_bojects_from_scene.png" />
+<p>By clicking “<strong>Add</strong>” you will be able to select the scene object.  Once selected, the objects will be added as Greebles.  You can adjust the coverage and other parameters of these objects just like the <a class="reference internal" href="#greeble-objects-from-library"><span class="std std-ref">library greebles</span></a>.</p>
+<img alt="Greeble Objects From Scene changing" src="../../_images/prop_greeble_change_object_from_scene.png" />
+<p>The objects will be added to a face relative to the same direction as the z-axis of the original object.</p>
+</section>
+<section id="greeble-orientation">
+<h2>Greeble Orientation<a class="headerlink" href="#greeble-orientation" title="Permalink to this headline"></a></h2>
+<img alt="Greeble Orientation" src="../../_images/prop_greeble_orient.png" />
+<p>This section allows you to point the greebles in a customized direction and to control the random rotation of the greebles.</p>
+<ul>
+<li><p><strong>Use Custom Direction</strong>: By default, the greebles point out from the Mesh along the normal of the faces they are on. This option allows you to point the greebles in a custom direction along the vector defined under <em>Outwards Direction</em>. A value of (0,0,1), for instance, will point all Greebles in the Z direction:</p>
+<blockquote>
+<div><figure class="align-default" id="id3">
+<img alt="Greeble Orientation: Follow Normals" src="../../_images/prop_greeble_follow_normals.png" />
+<figcaption>
+<p><span class="caption-text"><strong>Default</strong>: Greebles follow the face normals.</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id4">
+<img alt="Greeble Orientation: Follow Normals" src="../../_images/prop_greeble_follow_normals.png" />
+<figcaption>
+<p><span class="caption-text"><strong>Custom Direction</strong>: All greebles point in the same customisable direction.</span><a class="headerlink" href="#id4" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+</li>
+<li><p><strong>Rotation</strong>: The greebles are randomly rotated in 90 degree turns when they are placed on the mesh.  You can control or disable this function:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Greeble Random Rotation Seed</strong>: this will change the random pattern of greeble rotations without affecting their overall positions.</p></li>
+<li><p><strong>Do not randomly rotate</strong>: This disables random rotation, and allows you to specify the number of 90 degree turns by changing <strong>Number of 90 degree rotations</strong>.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</section>
 </section>
 
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="plating_props.html" class="btn btn-neutral float-left" title="Plating Properties" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../contact/contact.html" class="btn btn-neutral float-right" title="Contact" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 

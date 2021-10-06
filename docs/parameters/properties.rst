@@ -3,7 +3,7 @@ Properties
 ###########
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
    properties/plating_props

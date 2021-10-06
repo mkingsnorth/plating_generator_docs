@@ -28,7 +28,7 @@ The general order of installation is:
 
 .. |Animation Nodes| raw:: html
 
-   <a href="https://https://animation-nodes.com/" target="_blank">Animation Nodes</a>
+   <a href="https://animation-nodes.com/" target="_blank">Animation Nodes</a>
 
 
 *****************
