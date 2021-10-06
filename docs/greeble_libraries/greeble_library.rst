@@ -3,14 +3,17 @@ Greeble Libraries
 ##########################
 
 
-.. youtube:: MT0buoHerHA
-    :align: left
-    :width: 600
-    :height: 400
+|add_lib_video|
+
+.. |add_lib_video| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MT0buoHerHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 .. image:: ../images/greeble_lib_intro.png
     :alt: Greeble Libraries intro
-    :width: 600
+    :width: 560
 
 
 You can create your own greeble libraries that can be loaded into Blender.
