@@ -9,7 +9,7 @@ The Plating Generator
 V2.0: You (Can) Redo
 ---------------------------------
 
-.. figure:: images/intro.png
+.. figure:: images/cross-ship.gif
   :alt: The Plating Generator at work
 
 What is the Plating Generator?
