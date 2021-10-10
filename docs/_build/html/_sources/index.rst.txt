@@ -62,7 +62,7 @@ This add-on greatly speeds up the process, allowing you to quickly create a sele
 
 .. |Shape Generator| raw:: html
 
-   <a href="https://blendermarket.com/products/shape-generator" target="_blank"><b>Plating Generator</b></a>
+   <a href="https://blendermarket.com/products/shape-generator" target="_blank"><b>Shape Generator</b></a>
 
 
 
