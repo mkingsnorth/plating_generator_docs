@@ -74,6 +74,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#other-options">Other Options</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uv-projection">UV Projection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#smoothing">Smoothing</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="greeble_props.html">Greeble Properties</a></li>
@@ -420,6 +421,7 @@
 <li><p><strong>Remove Grooves</strong>: completely remove the grooves and just leave the plates. Useful with Solidify modifier.</p></li>
 <li><p><strong>Remove Inner Grooves</strong>: This allows you to remove just the inner groove faces.  Useful in the <a class="reference internal" href="../../usage/quickstart.html#non-destructive-workflow"><span class="std std-ref">Non Destructive Workflow</span></a> when you just want the plates and sides.</p></li>
 <li><p><strong>Edge Selection Only</strong>: only select the edges, without the mesh being edited.  Useful if you want to perform custom operations on the selection.</p></li>
+<li><p><strong>Shade Smooth</strong>: All faces will have their shading set to <em>smooth</em>.</p></li>
 </ul>
 </section>
 <section id="uv-projection">
@@ -430,6 +432,11 @@
 <li><p><strong>UV Projection Limit</strong>: This controls how faces are grouped: a higher limit will lead to many small groups but less distortion, while a lower limit will create fewer groups at the expense of more distortion.</p></li>
 </ul>
 <img alt="UV Projection on Plates" src="../../_images/prop_UV_projection.jpg" />
+</section>
+<section id="smoothing">
+<h2>Smoothing<a class="headerlink" href="#smoothing" title="Permalink to this headline"></a></h2>
+<img alt="UV Projection on Plates" src="../../_images/prop_auto_smooth.jpg" />
+<p>When checked, the whole object will have <a href="https://docs.blender.org/manual/en/2.79/modeling/meshes/editing/normals.html#auto-smooth" target="_blank">auto smoothing</a> applied and is controlled by the <strong>Auto Smooth Angle</strong>.</p>
 </section>
 </section>
 

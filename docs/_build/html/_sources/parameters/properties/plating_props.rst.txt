@@ -398,7 +398,7 @@ Other Options
 * **Remove Grooves**: completely remove the grooves and just leave the plates. Useful with Solidify modifier.
 * **Remove Inner Grooves**: This allows you to remove just the inner groove faces.  Useful in the :ref:`Non Destructive Workflow` when you just want the plates and sides.
 * **Edge Selection Only**: only select the edges, without the mesh being edited.  Useful if you want to perform custom operations on the selection.
-
+* **Shade Smooth**: All faces will have their shading set to *smooth*.
 
 *****************************
 UV Projection
@@ -418,3 +418,18 @@ The Plates will automatically have Blender's |UV Smart Projection| algorithm app
 .. |UV Smart Projection| raw:: html
 
    <a href="https://docs.blender.org/manual/en/2.79/editors/uv_image/uv/editing/unwrapping/mapping_types.html#smart-uv-project" target="_blank">UV Smart Projection</a>
+
+
+*****************************
+Smoothing
+*****************************
+
+.. image:: ../../images/prop_auto_smooth.jpg
+    :alt: UV Projection on Plates
+
+When checked, the whole object will have |auto smoothing| applied and is controlled by the **Auto Smooth Angle**.
+
+
+.. |auto smoothing| raw:: html
+
+   <a href="https://docs.blender.org/manual/en/2.79/modeling/meshes/editing/normals.html#auto-smooth" target="_blank">auto smoothing</a>
