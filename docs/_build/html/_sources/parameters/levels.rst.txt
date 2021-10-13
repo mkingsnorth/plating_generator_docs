@@ -59,6 +59,7 @@ Expanding the Levels sub section will give you the ability to add new Levels to 
 * **Color**: A random color is assigned to a level for organisation purposes which you can change if you wish.  It has no effect on the object.
 * **Name**: Name for the level.
 * **Seed**: The seed associated with the level.
+* **Visible**:  Whether we can actually see the level of not: It will still be processed if it is enabled.  This helps with adding invisible framing elements for greebles or plating.
 * **Enabled**: Whether the level is enabled for processing or not.  If other levels are dependant on this level, they will no longer be displayed or processed.
 * **Delete**: Delete the level from the plating object.
 
@@ -111,6 +112,15 @@ Building on other Levels
 
     .. image:: ../images/tops_sides.jpg
         :alt: Build on Properties for Levels
+
+#. If you want to place plates or greebles on part of the lower level, you have the following options:
+
+    .. image:: ../images/selection_amount_ctrls.jpg
+        :alt: Selection Amount Controls
+
+    * **Selection Amount**: The percentage of plates or greebles from the lower level to build on.
+    * **Select Remaining**: Only pick from the faces that haven't already been used by the levels below.  Useful for keeping the effects from overlapping.
+    * **Randomise Selection Seed**: This will randomise the faces of the plates or greebles being selected from the lower level.
 
 #. You can control the minimum size of the faces that will have the Level applied by using the **Minimum Face Area** property, which is useful for stopping plates or greebles being added to very small faces.
 

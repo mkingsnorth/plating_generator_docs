@@ -21,7 +21,6 @@ General Properties: Plates
 * **Level Name**: The name of the :ref:`Level<Levels>` for these properties.
 * **Enabled Checkbox**: Whether the :ref:`Level<Levels>` is activated or not.
 * **Plates/Greebles**: Whether we are creating Plates or Greebles.
-* **Minimum Face Area**: the minimum size of the face to apply the effect to.  Good for avoiding small areas of an object.
 
 **********************************
 Plating Pattern
@@ -370,7 +369,7 @@ It has the following parameters:
     .. figure:: ../../images/prop_plating_mat2.png
         :alt: Plating Material Properties
 
-    \* There is a known bug in Blender where by pressing the 'X' the menu will disappear in the :ref:`Destructive Workflow`.  You the number of plating materials parameter to control the number of materials instead.
+    \* There is a known bug in Blender where by pressing the 'X' the menu will disappear in the :ref:`Destructive Workflow`.  Use the number of plating materials parameter to control the number of materials instead.
 
 
 * **Add Vertex Colors**: Add a vertex color group called plating_color to the plates.  A random color value is assigned per plate. 

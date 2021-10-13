@@ -135,6 +135,7 @@
 <li><p><strong>Color</strong>: A random color is assigned to a level for organisation purposes which you can change if you wish.  It has no effect on the object.</p></li>
 <li><p><strong>Name</strong>: Name for the level.</p></li>
 <li><p><strong>Seed</strong>: The seed associated with the level.</p></li>
+<li><p><strong>Visible</strong>:  Whether we can actually see the level of not: It will still be processed if it is enabled.  This helps with adding invisible framing elements for greebles or plating.</p></li>
 <li><p><strong>Enabled</strong>: Whether the level is enabled for processing or not.  If other levels are dependant on this level, they will no longer be displayed or processed.</p></li>
 <li><p><strong>Delete</strong>: Delete the level from the plating object.</p></li>
 </ul>
@@ -182,6 +183,16 @@
 <li><p>If you select a previous level, and that level was a “Plating” type, you can choose whether to add this level to the <em>Tops</em> or the <em>Sides</em> of the Plates (or both by pressing the <em>shift</em> key):</p>
 <blockquote>
 <div><img alt="Build on Properties for Levels" src="../_images/tops_sides.jpg" />
+</div></blockquote>
+</li>
+<li><p>If you want to place plates or greebles on part of the lower level, you have the following options:</p>
+<blockquote>
+<div><img alt="Selection Amount Controls" src="../_images/selection_amount_ctrls.jpg" />
+<ul class="simple">
+<li><p><strong>Selection Amount</strong>: The percentage of plates or greebles from the lower level to build on.</p></li>
+<li><p><strong>Select Remaining</strong>: Only pick from the faces that haven’t already been used by the levels below.  Useful for keeping the effects from overlapping.</p></li>
+<li><p><strong>Randomise Selection Seed</strong>: This will randomise the faces of the plates or greebles being selected from the lower level.</p></li>
+</ul>
 </div></blockquote>
 </li>
 <li><p>You can control the minimum size of the faces that will have the Level applied by using the <strong>Minimum Face Area</strong> property, which is useful for stopping plates or greebles being added to very small faces.</p>

@@ -26,7 +26,6 @@ General Properties: Greebles
 * **Level Name**: The name of the :ref:`Level<Levels>` for these properties.
 * **Enabled Checkbox**: Whether the :ref:`Level<Levels>` is activated or not.
 * **Plates/Greebles**: Whether we are creating Plates or Greebles.
-* **Minimum Face Area**: the minimum size of the face to apply the effect to.  Good for avoiding small areas of an object.
 
 **********************************
 Greeble Pattern
