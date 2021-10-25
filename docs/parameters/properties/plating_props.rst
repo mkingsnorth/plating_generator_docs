@@ -50,7 +50,7 @@ Create intersecting edge loops. The following options apply:
   
     * **Random Seed**: generate a different selection based on the whole number given here.
 
-    * **Amount**: the amount of plate cuts generated.
+    * **Amount**: the percentage of plate cuts generated.
 
     * **Subdivisions**: this will subdivide the selected faces before applying the pattern. 
   
@@ -67,7 +67,7 @@ Randomly select faces by walking around the mesh. The following options apply:
 
     * **Random Seed**: generate a different selection based on the whole number given here.
 
-    * **Percentage**: The amount of grooves to add.
+    * **Percentage**: The percentage of grooves to add.
 
     * **Subdivisions**: this will subdivide the selected faces before applying the pattern. 
 
