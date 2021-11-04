@@ -26,14 +26,14 @@ Save a Preset
         :alt: Save a preset menu option.
 
 
-#. In the *File Menu* window that appears, type the name of the *.json* file you wish to save as a preset.  You may wish to save in a :ref:`pre-configured directory<Custom presets directory>` for easy access later:
+#. In the *File Menu* window that appears, type the name of the *.json* file you wish to save as a preset.  You may wish to save in a :ref:`pre-configured directory<Custom presets directories>` for easy access later:
 
     .. figure:: ../images/preset_save_dialog.jpg
         :alt: Saving a preset
 
 #. Click "Save".
 
-Your settings will be then saved as a *.json file* you can :ref:`load <Load a Preset>` later or access via a sub menu if you have saved it to your :ref:`presets directory<Custom presets directory>`.
+Your settings will be then saved as a *.json file* you can :ref:`load <Load a Preset>` later or access via a sub menu if you have saved it in a :ref:`presets directory<Custom presets directories>`.
 
 
 Load a Preset
@@ -57,7 +57,7 @@ This will update the selected *Plating* object's settings with the preset.
 Quickly apply a Preset
 ============================
 
-A pre-bundled preset, or a preset file in your :ref:`presets directory<Custom presets directory>`, can be quickly added in two ways:
+A pre-bundled preset, or a preset file in your :ref:`presets directories<Custom presets directories>`, can be quickly added in two ways:
 
 #. **Create an object with the preset instantly applied** via the right-click menu, under *Plating Generator -> Add Preset*:
 
@@ -70,15 +70,15 @@ A pre-bundled preset, or a preset file in your :ref:`presets directory<Custom pr
         :alt: Applying a preset to an existing plating object via the panel.
 
 
-Custom presets directory
+Custom presets directories
 ---------------------------------------
 
 .. figure:: ../images/preset_menu_eg.jpg
   :alt: Preset Menus example
 
-Placing your *json* file presets in a pre-configured directory gives you quick access via the drop down menus.
+Placing your *json* preset files in a pre-configured directory gives you quick access via the drop down menus.  You can have many presets directories, each containing their own group of presets.
 
-This directory can be set in the *Presets Path* setting under the *Edit - Preferences - Addons* menu under the Plating Generator add-on entry:
+These directories can be set in the *Presets Path* setting under the *Edit - Preferences - Addons* menu under the Plating Generator add-on entry:
 
 .. figure:: ../images/presets_dir_pref.jpg
   :alt: Preset Menus example
