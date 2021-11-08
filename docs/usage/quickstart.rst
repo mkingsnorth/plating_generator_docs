@@ -105,14 +105,26 @@ Selecting the *Add Greebles to Mesh* option will automatically add greebles dire
 
 
 
+============================
+Add Panel Lines to Mesh
+============================
+
+Selecting the *Add Panel Lines to Mesh* option will automatically add panel lines using selected edges:
+
+.. image:: ../images/add_panel_lines_to_mesh.gif
+    :alt: Adding Panel Lines
+
+This uses the same :ref:`properties` as the :ref:`Add Plates to Mesh` function
+
+
 ====================================================================
 Changing Properties for Operation
 ====================================================================
 
-You can then change the object's properties using the bottom left hand side panel.  You may need to expand the panel to see all the options:
+You can then change the object's :ref:`properties` using the bottom left hand side panel.  You may need to expand the panel to see all the options:
 
 .. image:: ../images/add_greebles_to_mesh_2.gif
     :alt: Properties Panel
 
 
-These properties are descibed in more detail [[[[[here]]]]]].
+These properties are descibed in more detail :ref:`here<properties>`.
