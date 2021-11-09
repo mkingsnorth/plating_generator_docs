@@ -1,14 +1,23 @@
 ###############
 Presets
 ###############
-.. figure:: ../images/preset_demo.gif
-  :alt: Example Preset
 
-  An example of using presets to automatically apply a variety of effects to build on.
+
+|presets_video|
+
+.. |presets_video| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xcfRasEx5og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can save your own effects that you can then re-use or share.
 
 The add-on comes bundled with some pre-configured presets, and you can also create your own.
+
+.. figure:: ../images/preset_demo.gif
+  :alt: Example Preset
+  :width: 560
+
+  An example of using presets to automatically apply a variety of effects to build on.
 
 Each workflow contains its own separate set of presets.
 
