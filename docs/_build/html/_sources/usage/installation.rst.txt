@@ -14,7 +14,8 @@ You will be provided with the following files:
 * Libraries and samples (*do unzip*!):
   
   * **greeble_libraries.zip** - a bonus set of greeble libraries.
-  * **animation_nodes_samples.zip** - A set of sample.blend files demonstrating the animation node setup.
+  * **plating_generator_greebles_samples_unzip.me.zip** - A set of sample.blend files demonstrating the main add-on's setup.
+  * **animation_nodes_plating_gen_samples_unzip.me.zip** - A set of sample.blend files demonstrating the animation node setup.
 
 Instructions for how to install the add-on and additional features are below.
 
