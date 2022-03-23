@@ -112,7 +112,7 @@ Building on other Levels
 Selection
 **********************************
 
-#. When you click on a Level, the :ref:`Properties` section will show controls that allow you to further configure a selection:
+#. The :ref:`Properties` section will show controls that allow you to further configure a selection:
 
     .. image:: ../images/level_params.jpg
         :alt: Level Properties
