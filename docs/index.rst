@@ -93,6 +93,7 @@ This add-on greatly speeds up the process, allowing you to quickly create a sele
    greeble_libraries/greeble_library
    anim_nodes/anim_nodes_overview
    iterator/iterator
+   baking/baking
    contact/contact
 
 Indices and tables

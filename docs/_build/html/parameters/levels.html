@@ -47,6 +47,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#levels-panel">Levels Panel</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#use">Use</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#building-on-other-levels">Building on other Levels</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#selection">Selection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#changing-other-properties">Changing Other Properties</a></li>
 </ul>
 </li>
@@ -56,6 +57,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../greeble_libraries/greeble_library.html">Greeble Libraries</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../anim_nodes/anim_nodes_overview.html">Animation Nodes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../iterator/iterator.html">Iterator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../baking/baking.html">Baking</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../contact/contact.html">Contact</a></li>
 </ul>
 
@@ -170,11 +172,6 @@
 <section id="building-on-other-levels">
 <h2>Building on other Levels<a class="headerlink" href="#building-on-other-levels" title="Permalink to this headline"></a></h2>
 <ol class="arabic">
-<li><p>When you click on a Level, the <a class="reference internal" href="properties.html#properties"><span class="std std-ref">Properties</span></a> section will show controls that allow you to further configure a level:</p>
-<blockquote>
-<div><img alt="Level Properties" src="../_images/level_params.jpg" />
-</div></blockquote>
-</li>
 <li><p>The <strong>Build On</strong> option allows you to choose whether the level builds on the <strong>Original Object</strong> or <strong>Previous Levels</strong>:</p>
 <blockquote>
 <div><img alt="Level Properties" src="../_images/build_on_levels.jpg" />
@@ -185,13 +182,22 @@
 <div><img alt="Build on Properties for Levels" src="../_images/tops_sides.jpg" />
 </div></blockquote>
 </li>
-<li><p>If you want to place plates or greebles on part of the lower level, you have the following options:</p>
+</ol>
+</section>
+<section id="selection">
+<h2>Selection<a class="headerlink" href="#selection" title="Permalink to this headline"></a></h2>
+<ol class="arabic">
+<li><p>When you click on a Level, the <a class="reference internal" href="properties.html#properties"><span class="std std-ref">Properties</span></a> section will show controls that allow you to further configure a selection:</p>
 <blockquote>
-<div><img alt="Selection Amount Controls" src="../_images/selection_amount_ctrls.jpg" />
-<ul class="simple">
-<li><p><strong>Selection Amount</strong>: The percentage of plates or greebles from the lower level to build on.</p></li>
-<li><p><strong>Select Remaining</strong>: Only pick from the faces that haven’t already been used by the levels below.  Useful for keeping the effects from overlapping.</p></li>
-<li><p><strong>Randomise Selection Seed</strong>: This will randomise the faces of the plates or greebles being selected from the lower level.</p></li>
+<div><img alt="Level Properties" src="../_images/level_params.jpg" />
+</div></blockquote>
+</li>
+<li><p>You have the following selection options when you are either building on the original object or on top of a level:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Face Amount</strong>: The percentage of faces from the selection to build on. On the original object, this will randomly select faces.  Clicking the circular refresh button allows you to randomize the selection.</p></li>
+<li><p><strong>Plate Amount</strong>: The percentage of plates or greebles to build on. On the original object, this will randomly select existing plates.  Clicking the circular refresh button allows you to randomize the selection.</p></li>
+<li><p><strong>Only Select Remaining Faces</strong>: Only pick from the faces that haven’t already been used by the levels below.  Useful for keeping the effects from overlapping.</p></li>
 </ul>
 </div></blockquote>
 </li>

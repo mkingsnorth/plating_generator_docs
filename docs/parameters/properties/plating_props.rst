@@ -315,15 +315,6 @@ You can add spherical rivets to the corners of the plates.  The shapes are stand
 * **Subdivisions**: level of detail for the rivets.
 * **Material Index**: the index of the material slot to use for the rivets.  -1 will disable assigning a material.
 
-*****************************
-Selection
-*****************************
-
-.. image:: ../../images/prop_selection.png
-    :alt: Selection Properties
-
-* **Select Groove Geometry**: select the created groove faces.
-* **Select Plate Geometry**: select the created faces for the plates.
 
 *****************************
 Materials
@@ -392,6 +383,8 @@ Other Options
 .. image:: ../../images/prop_other_options.jpg
     :alt: other Options
 
+* **Select Groove Geometry**: select the created groove faces.
+* **Select Plate Geometry**: select the created faces for the plates.
 * **Mark UV Seams**: mark UV Seams around the plates for texture mapping purposes.
 * **Edge Split**: this will split the groove edges to make sure the outer plates remain smooth.
 * **Remove Grooves**: completely remove the grooves and just leave the plates. Useful with Solidify modifier.

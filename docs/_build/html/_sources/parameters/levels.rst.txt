@@ -97,11 +97,6 @@ To add a new Level, with the *plating* object selected:
 Building on other Levels
 **********************************
 
-#. When you click on a Level, the :ref:`Properties` section will show controls that allow you to further configure a level:
-
-    .. image:: ../images/level_params.jpg
-        :alt: Level Properties
-
 #. The **Build On** option allows you to choose whether the level builds on the **Original Object** or **Previous Levels**:
 
     .. image:: ../images/build_on_levels.jpg
@@ -113,14 +108,20 @@ Building on other Levels
     .. image:: ../images/tops_sides.jpg
         :alt: Build on Properties for Levels
 
-#. If you want to place plates or greebles on part of the lower level, you have the following options:
+**********************************
+Selection
+**********************************
 
-    .. image:: ../images/selection_amount_ctrls.jpg
-        :alt: Selection Amount Controls
+#. When you click on a Level, the :ref:`Properties` section will show controls that allow you to further configure a selection:
 
-    * **Selection Amount**: The percentage of plates or greebles from the lower level to build on.
-    * **Select Remaining**: Only pick from the faces that haven't already been used by the levels below.  Useful for keeping the effects from overlapping.
-    * **Randomise Selection Seed**: This will randomise the faces of the plates or greebles being selected from the lower level.
+    .. image:: ../images/level_params.jpg
+        :alt: Level Properties
+
+#. You have the following selection options when you are either building on the original object or on top of a level:
+
+    * **Face Amount**: The percentage of faces from the selection to build on. On the original object, this will randomly select faces.  Clicking the circular refresh button allows you to randomize the selection.
+    * **Plate Amount**: The percentage of plates or greebles to build on. On the original object, this will randomly select existing plates.  Clicking the circular refresh button allows you to randomize the selection.
+    * **Only Select Remaining Faces**: Only pick from the faces that haven't already been used by the levels below.  Useful for keeping the effects from overlapping.
 
 #. You can control the minimum size of the faces that will have the Level applied by using the **Minimum Face Area** property, which is useful for stopping plates or greebles being added to very small faces.
 
