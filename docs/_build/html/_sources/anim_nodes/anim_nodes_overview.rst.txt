@@ -2,6 +2,9 @@
 Animation Nodes
 ##########################
 
+.. figure:: ../images/animation_nodes_screenshot.gif
+  :alt: Animation Nodes Screenshot
+
 There is also the option to use the add-on as a node in the powerful |Animation Nodes| Blender extension. This is useful if you want to either create animated effects or control the effect dynamically. 
 
 
@@ -30,4 +33,4 @@ And the 'Add Greebles' Node looks like this:
 
    <a href="https://animation-nodes.com/" target="_blank">Animation Nodes</a>
 
-   If you have a question, issue, or new feature do not hesitate to get in touch via `info@configurate.net <mailto:info@configurate.net>`_.
+If you have a question, issue, or new feature do not hesitate to get in touch via `info@configurate.net <mailto:info@configurate.net>`_.
