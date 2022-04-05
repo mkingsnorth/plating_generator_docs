@@ -71,6 +71,10 @@ Randomly select faces by walking around the mesh. The following options apply:
 
     * **Subdivisions**: this will subdivide the selected faces before applying the pattern. 
 
+    * **Triangles Random Seed**: Change where triangular parts of the grooves are added independent to the main random seed.
+
+    * **Triangulation**: As a percentage, how many triangles are added to the standard pattern.
+
 Triangular
 ----------------------
 

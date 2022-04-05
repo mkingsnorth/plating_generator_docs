@@ -112,12 +112,12 @@ Building on other Levels
 Selection
 **********************************
 
-#. The :ref:`Properties` section will show controls that allow you to further configure a selection:
+#. The :ref:`Properties` section allows you to further configure a selection:
 
     .. image:: ../images/level_params.jpg
         :alt: Level Properties
 
-#. You have the following selection options when you are either building on the original object or on top of a level:
+#. You have the following selection options when you are either building on the original object, or on top of a level:
 
     * **Face Amount**: The percentage of faces from the selection to build on. On the original object, this will randomly select faces.  Clicking the circular refresh button allows you to randomize the selection.
     * **Plate Amount**: The percentage of plates or greebles to build on. On the original object, this will randomly select existing plates.  Clicking the circular refresh button allows you to randomize the selection.
