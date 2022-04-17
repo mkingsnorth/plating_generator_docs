@@ -68,7 +68,7 @@ When you have either added Plating or Greebles you can then change the object's 
 
     Plates Properties Panel
 
-These properties are descibed in more detail [[[[[here]]]]]].
+These properties are descibed in more detail :ref:`here<properties>`.
 
 
    
