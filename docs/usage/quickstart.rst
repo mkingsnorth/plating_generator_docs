@@ -6,7 +6,7 @@ Getting Started
 The tool can be used in either *Object* or *Edit Face* Mode, with faces selected.
 
 .. figure:: ../images/using_menu.jpg
-    :alt: Shipwright Properties Panel
+    :alt: Plating Generator Properties Panel
 
     Plating Generator in the right-click context menu.
 
@@ -23,6 +23,7 @@ The tool can be used in either *Object* or *Edit Face* Mode, with faces selected
     * :ref:`Add Plates to Mesh`: Add panel lines directly to your mesh.
     * :ref:`Add Greebles to Mesh`: Add greeble objects directly to your mesh.
 
+#. If you want to add a :ref:`Plating Generator modifier to your object<Modifiers>`, you can select from the :ref:`Modifiers` section.
 
 .. |greeble| raw:: html
 
