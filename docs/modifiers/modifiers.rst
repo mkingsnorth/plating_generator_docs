@@ -140,7 +140,7 @@ Pipes Modifier
 .. figure:: ../images/modifier_pipes.jpg
     :alt: Plating Generator modifiers
 
-A modifier that creates a random piping pattern.
+A modifier that creates a simple random piping pattern.
 
 .. tip::
 
