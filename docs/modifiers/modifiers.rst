@@ -161,7 +161,7 @@ A modifier that creates a simple random piping pattern.
 Using the Nodes
 **********************************
 
-Hidden behind each modifier is a set of node groups that can be used inside a Geometry Nodes set up.  Thes node groups can be loaded into a Blender scene and then used in combination with any other nodes.
+Hidden behind each modifier is a set of node groups that can be used inside a Geometry Nodes set up.  These node groups can be loaded into a Blender scene and then used in combination with any other nodes.
 
 To add the nodes for use:
 
