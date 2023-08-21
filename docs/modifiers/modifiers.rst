@@ -185,7 +185,7 @@ To add the nodes for use:
     .. figure:: ../images/geometry_nodes_import_node_group.jpg
         :alt: Plating Generator modifiers
 
-#. In the nodes editor view, press *siift-A* and search for one of the following modifier nodes:
+#. In the nodes editor view, press *shift-A* and search for one of the following modifier nodes:
 
     * **Panels Modifier Nodes**
     * **Plating Modifier Nodes**
