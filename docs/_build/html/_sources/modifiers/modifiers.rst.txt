@@ -2,8 +2,12 @@
 Modifiers
 ######################
 
-.. image:: ../images/plating_gen_modifiers.jpg
-    :alt: Plating Generator modifiers
+|modifiers_video|
+
+.. |modifiers_video| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JPznYP_BRUA?si=PSd3-bRQr8kgsMLv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 The Plating Generator comes with a set of modifiers that add panelling effects and greebles on top of the base mesh, also in a non-destructive way.
