@@ -69,6 +69,9 @@ Add any one of the modifiers by:
     .. figure:: ../images/modifier_added.gif
         :alt: Plating Generator modifiers
 
+    .. warning::
+        If the effect is blank, check you have a UV Map for the object.
+
     .. tip::
 
         .. figure:: ../images/modifier_bevel.gif
