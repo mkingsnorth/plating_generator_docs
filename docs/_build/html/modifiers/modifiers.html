@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modifiers &mdash; Plating Generator  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Baking" href="../baking/baking.html" />
+    <link rel="prev" title="Iterator" href="../iterator/iterator.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Plating Generator
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../usage/installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage/quickstart.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parameters/panel_controls.html">Control Panel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parameters/levels.html">Levels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parameters/properties.html">Properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../selection/updating_selection.html">Update/Copy/Select</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage/presets.html">Presets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../greeble_libraries/greeble_library.html">Greeble Libraries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anim_nodes/anim_nodes_overview.html">Animation Nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../iterator/iterator.html">Iterator</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Modifiers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#using-the-modifiers">Using the Modifiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modifiers-list">Modifiers list</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#panelling-modifier">Panelling Modifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plating-modifier">Plating Modifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#greebles-modifier">Greebles Modifier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pipes-modifier">Pipes Modifier</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#using-the-nodes">Using the Nodes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#having-issues-with-the-modifiers-or-nodes">Having issues with the modifiers or nodes?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../baking/baking.html">Baking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact/contact.html">Contact</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Plating Generator</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Modifiers</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/modifiers/modifiers.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="modifiers">
+<h1>Modifiers<a class="headerlink" href="#modifiers" title="Permalink to this headline"></a></h1>
+<img alt="Plating Generator modifiers" src="../_images/plating_gen_modifiers.jpg" />
+<p>The Plating Generator comes with a set of modifiers that add panelling effects and greebles on top of the base mesh, also in a non-destructive way.</p>
+<ul class="simple">
+<li><p>These are completely separate to the other Plating Generator workflows.</p></li>
+<li><p>They require a grid shaped UV Map to work.</p></li>
+<li><p>The modifiers use, but do not require knowledge of, <a href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" target="_blank"><b>Geometry Nodes</b></a>.  However by learning a little <a href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" target="_blank"><b>Geometry Nodes</b></a> you will get the most out of them.</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Advantages</strong></p>
+<ul>
+<li><p><strong>Fast</strong>: As the modifiers use Blender’s core processes, they are a lot faster than the standard Python add-on functions.  They will also work on meshes with larger numbers of faces.</p>
+<blockquote>
+<div><figure class="align-default" id="id1">
+<img alt="Plating Generator modifiers" src="../_images/modifiers_speed.gif" />
+<figcaption>
+<p><span class="caption-text">Captured in realtime, the modifier can out perform standard python.</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+</li>
+<li><p><strong>Flexible</strong>: As they are modifiers that use Geometry Nodes, you can use them with Blender’s other modifiers or use them as a node with other Geometry Nodes.</p></li>
+<li><p><strong>Non-destructive</strong>: The modifiers do not alter the base mesh and will update automatically when the base mesh changes.</p></li>
+<li><p><strong>Animatable</strong>: The parameters of the modifiers can be animated using keyframes.</p></li>
+</ul>
+<p><strong>Disadvantages</strong></p>
+<ul>
+<li><p><strong>UV Map Required</strong>: The panel modifiers specifically require a grid shaped UV Map for them to work, otherwise nothing will be displayed.  You can use the <a href="https://blendermarket.com/products/uv-squares?ref=361" target="_blank"><b>UV Squares</b></a> add-on to achieve this or by using the <a href="https://youtu.be/8nvgo266xG4" target="_blank"><b>Follow Active Quads</b></a> method.  Remember, you can add more than one UV Map to an object in Blender’s <a href="https://docs.blender.org/manual/en/latest/modeling/meshes/properties/object_data.html" target="_blank"><b>Object Data Properties</b></a> tab if you already have a UV Map you wish to keep.</p>
+<blockquote>
+<div><figure class="align-default" id="id2">
+<img alt="Plating Generator modifiers" src="../_images/modifiers_uv_map_required.jpg" />
+<figcaption>
+<p><span class="caption-text">The ideal UV Map is made up of a square grid for the pattern to work well.  Here, the <a href="https://blendermarket.com/products/uv-squares?ref=361" target="_blank"><b>UV Squares</b></a> add-on is used to make the UV faces square.</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id3">
+<img alt="Plating Generator modifiers" src="../_images/uv_data_properties.jpg" />
+<figcaption>
+<p><span class="caption-text">Remember you can create more than one UV map under the Object Data Properties tab.</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+</li>
+<li><p><strong>Quad topology ideal</strong>: Ideally the geometry should be arranged in quad topology.</p></li>
+<li><p><strong>Limited features</strong>: As Geometry nodes is still evolving, the modifier parameters are comparatively limited compared to the other Plating Generator workflows.</p></li>
+</ul>
+</div>
+<section id="using-the-modifiers">
+<h2>Using the Modifiers<a class="headerlink" href="#using-the-modifiers" title="Permalink to this headline"></a></h2>
+<p>Add any one of the modifiers by:</p>
+<ol class="arabic simple">
+<li><p>Selecting the object you wish to add one of the modifiers to.  The object requires a square shaped UV map and a set of faces to extrude.</p></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>You could use a Subdivision Surface modifier (optionally set to <em>Simple</em>) to increase geometry for the modifier.</p></li>
+<li><p>You can use selections of faces with the modifier, but it is recommended to separate geometry for different effects.</p></li>
+</ul>
+</div>
+<ol class="arabic">
+<li><p>Right-click in the viewport and go to the <em>Plating Generator</em> section of the context menu.  There should be a <em>Modifiers</em> section that lists all current Plating Generator modifiers:</p>
+<blockquote>
+<div><figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/modifiers_context_menu.jpg" />
+</figure>
+</div></blockquote>
+</li>
+<li><p>Select the modifier you wish to add from the <em>Modifiers</em> section of the menu.</p></li>
+<li><p>The modifier will be added to the object, along with any additional modifiers (e.g. a bevel modifier) that complements the effect.  You may wish to adjust parameters like the heights of the panels to make sure the effect is working.</p>
+<blockquote>
+<div><figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/modifier_added.gif" />
+</figure>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If the effect is blank, check you have a UV Map for the object.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<figure class="align-default" id="id4">
+<img alt="Plating Generator modifiers" src="../_images/modifier_bevel.gif" />
+<figcaption>
+<p><span class="caption-text">A Bevel modifier might be added to highlight the Panelling effect.  You can adjust this separately to the main modifier.</span><a class="headerlink" href="#id4" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="modifiers-list">
+<h2>Modifiers list<a class="headerlink" href="#modifiers-list" title="Permalink to this headline"></a></h2>
+<p>There are different modifiers to choose from.  Parameters are documented as tooltips on each of the individual inputs:</p>
+<section id="panelling-modifier">
+<h3>Panelling Modifier<a class="headerlink" href="#panelling-modifier" title="Permalink to this headline"></a></h3>
+<figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/modifier_panelling.jpg" />
+</figure>
+<p>A base panelling effect that uses a combination of big, medium and small panels controlled by a random seed number.</p>
+</section>
+<section id="plating-modifier">
+<h3>Plating Modifier<a class="headerlink" href="#plating-modifier" title="Permalink to this headline"></a></h3>
+<figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/modifier_plating.jpg" />
+</figure>
+<p>A more customizable version of the panelling modifier, allowing you to set materials and heights for different size panels.  Optional notches are added to the sides for greater detail.</p>
+</section>
+<section id="greebles-modifier">
+<h3>Greebles Modifier<a class="headerlink" href="#greebles-modifier" title="Permalink to this headline"></a></h3>
+<figure class="align-default" id="id5">
+<img alt="Plating Generator modifiers" src="../_images/modifier_greebles.jpg" />
+<figcaption>
+<p><span class="caption-text">The greebles modifier set to a density of 5000.</span><a class="headerlink" href="#id5" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>A modifier that adds random objects to the surface.  A default collection of objects is imported, which can be changed to a different collection on the modifier settings.</p>
+</section>
+<section id="pipes-modifier">
+<h3>Pipes Modifier<a class="headerlink" href="#pipes-modifier" title="Permalink to this headline"></a></h3>
+<figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/modifier_pipes.jpg" />
+</figure>
+<p>A modifier that creates a simple random piping pattern.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Combining modifiers</strong></p>
+<figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/modifier_combining1.jpg" />
+</figure>
+<p>You can combine different modifiers together and use <a href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/attributes_reference.html" target="_blank"><b>Attributes</b></a> set by the modifiers to change where they are applied.  Here a Plating Modifier has been added first, and then a Greeble Modifier has then been added.  The <em>Selection</em> parameter has then been changed so the greebles only appear on the Small Panels.</p>
+<p>This is by using the <em>Small Panels</em> attribute that has been set by the Plating modifier:</p>
+<figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/modifier_combining.gif" />
+</figure>
+</div>
+</section>
+</section>
+<section id="using-the-nodes">
+<h2>Using the Nodes<a class="headerlink" href="#using-the-nodes" title="Permalink to this headline"></a></h2>
+<p>Hidden behind each modifier is a set of node groups that can be used inside a Geometry Nodes set up.  These node groups can be loaded into a Blender scene and then used in combination with any other nodes.</p>
+<p>To add the nodes for use:</p>
+<ol class="arabic">
+<li><p>Go to the Geometry Nodes editing tab.</p>
+<blockquote>
+<div><figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/geometry_nodes_tab.jpg" />
+</figure>
+</div></blockquote>
+</li>
+<li><p>Add a Geometry Nodes modifier to the object if there is not one already.</p>
+<blockquote>
+<div><figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/geometry_nodes_new_modifier.jpg" />
+</figure>
+</div></blockquote>
+</li>
+<li><p>Click “New” to add a new Geometry Nodes tree to the modifier.</p>
+<blockquote>
+<div><figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/geometry_nodes_new_node_tree.jpg" />
+</figure>
+</div></blockquote>
+</li>
+<li><p>In the nodes editor view, right-click and select “Import Plating Generator Geometry Node Groups”. This will import all node groups if they have not been added already.</p>
+<blockquote>
+<div><figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/geometry_nodes_import_node_group.jpg" />
+</figure>
+</div></blockquote>
+</li>
+<li><p>In the nodes editor view, press <em>shift-A</em> and search for one of the following modifier nodes:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Panels Modifier Nodes</strong></p></li>
+<li><p><strong>Plating Modifier Nodes</strong></p></li>
+<li><p><strong>Greebles Modifier Nodes</strong></p></li>
+</ul>
+<figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/geometry_nodes_search.jpg" />
+</figure>
+<p>…Any other nodes groups with similar names may be sub-node groups and are less useful.</p>
+</div></blockquote>
+</li>
+<li><p>You can then use the node in the same way as the modifier:</p>
+<blockquote>
+<div><figure class="align-default">
+<img alt="Plating Generator modifiers" src="../_images/geometry_nodes_example.jpg" />
+</figure>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>Remember to add a UV Map (e.g. from a Named Attribute node - see screenshot) to the <em>Vector</em> input to supply a UV Map to the node.  Otherwise, nothing will be displayed.</p></li>
+<li><p>Also make sure the mesh has enough face subdivisions to see a result (as seen in the screenshot)</p></li>
+<li><p>Adjust parameters (e.g. height) on the node to check it is working.</p></li>
+</ul>
+</div>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="having-issues-with-the-modifiers-or-nodes">
+<h2>Having issues with the modifiers or nodes?<a class="headerlink" href="#having-issues-with-the-modifiers-or-nodes" title="Permalink to this headline"></a></h2>
+<p>Don’t hesitate to <a class="reference internal" href="../contact/contact.html#contact"><span class="std std-ref">Get in touch</span></a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../iterator/iterator.html" class="btn btn-neutral float-left" title="Iterator" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../baking/baking.html" class="btn btn-neutral float-right" title="Baking" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Mark Kingsnorth.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

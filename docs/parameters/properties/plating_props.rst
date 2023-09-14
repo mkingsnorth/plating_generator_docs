@@ -303,13 +303,14 @@ Rivets
 .. image:: ../../images/prop_rivets.png
     :alt: Rivets Properties
 
-You can add spherical rivets to the corners of the plates.  The shapes are standard ico spheres.
+You can add rivets to the corners of the plates.  The default shapes are standard ico spheres.
 
 .. image:: ../../images/prop_rivets_pic.png
     :alt: Rivets
     :width: 50%
 
 * **Use Rivets**: whether to add rivets or not.
+* **Use Custom Rivet**: instead of using the default spherical rivet, you can pick a custom scene object in the drop-down box.
 * **Distance from Corner** this will determine the distance of the rivets from the corners.
 
     .. image:: ../../images/prop_rivets_dist_corner.gif
