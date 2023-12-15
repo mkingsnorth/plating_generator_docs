@@ -17,6 +17,14 @@ Modifiers and Tools
 
     Captured in realtime, the modifiers can out perform standard python code.
 
+
+|mod_vid|
+
+.. |mod_vid| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5E1CqhxyMUk?si=4WQQGy4FzOYpbsWC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 The Plating Generator comes with a set of Blender 4.0 Modifiers and Tools that add panelling effects and greebles on top of the base mesh in a non-destructive way. These are completely separate to the other Plating Generator workflows.
 
 .. _adding-blender-asset-library:
