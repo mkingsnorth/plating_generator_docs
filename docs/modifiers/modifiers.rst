@@ -193,6 +193,11 @@ Greebles
 
 A modifier that adds random objects to the surface.  A default collection of objects is imported, which can be changed to a different collection on the modifier settings.
 
+.. note::
+    **Disappearing Greebles**
+
+    This can happen when you apply the Greebles modifier.  To fix this, tick the **Realize Instances** option on the modifier before applying it.  This will take up more memory but should keep the Greebles when you apply the modifier.
+
 ==============================
 Pipes
 ==============================
