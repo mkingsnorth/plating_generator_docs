@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Iterator &mdash; Plating Generator  documentation</title>
+  <title>Import and Export Settings &mdash; Plating Generator  documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -18,8 +18,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Modifiers and Tools" href="../modifiers/modifiers.html" />
-    <link rel="prev" title="Animation Nodes" href="../anim_nodes/anim_nodes_overview.html" /> 
+    <link rel="next" title="Contact" href="../contact/contact.html" />
+    <link rel="prev" title="Baking" href="../baking/baking.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -48,14 +48,14 @@
 <li class="toctree-l1"><a class="reference internal" href="../usage/presets.html">Presets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../greeble_libraries/greeble_library.html">Greeble Libraries</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../anim_nodes/anim_nodes_overview.html">Animation Nodes</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Iterator</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#using-the-iterator">Using the Iterator</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#cancelling-the-operation">Cancelling the operation</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../iterator/iterator.html">Iterator</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../modifiers/modifiers.html">Modifiers and Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../baking/baking.html">Baking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../import_export/import_export.html">Import and Export Settings</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Import and Export Settings</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#to-export-settings">To Export Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#to-import-settings">To Import Settings</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../contact/contact.html">Contact</a></li>
 </ul>
 
@@ -73,9 +73,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Iterator</li>
+      <li>Import and Export Settings</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/iterator/iterator.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/import_export/import_export.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -83,31 +83,31 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="iterator">
-<h1>Iterator<a class="headerlink" href="#iterator" title="Permalink to this headline"></a></h1>
-<img alt="Iterator Image Output" src="../_images/iterator_intro.jpg" />
-<p>To assess many possible combinations, the Iterator feature can use the camera in your scene to automatically render a range of Plating Generator master seed combinations to a directory of your choosing.</p>
-<figure class="align-default" id="id1">
-<img alt="Iterator Properties" src="../_images/iterator_parms.jpg" />
-<figcaption>
-<p><span class="caption-text">Iterator Controls.</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
-</figcaption>
-</figure>
-<section id="using-the-iterator">
-<h2>Using the Iterator<a class="headerlink" href="#using-the-iterator" title="Permalink to this headline"></a></h2>
-<p>The iterator will produce a set of images, each image is a preview of the Plating Object when it is in that seed configuration.</p>
-<p>The name of the filename will display the master seed value used.</p>
-<ul class="simple">
-<li><p><strong>Seed Range</strong>: set the master seed range used to render out different combinations.</p></li>
-<li><p><strong>File Path</strong>: The output directory for the file images.</p></li>
-<li><p><strong>Render Engine</strong>: Optionally choose a render engine different to the main scene.  The Iterator will then use the settings of the alternative renderer.</p></li>
-<li><p><strong>Start</strong>: start an iterator process.  Whilst the images are rendering, Blender may appear to freeze.  You can check whether the images are being output by navigating to the output directory to see if the images are being created.</p></li>
-</ul>
+  <section id="import-and-export-settings">
+<h1>Import and Export Settings<a class="headerlink" href="#import-and-export-settings" title="Permalink to this headline"></a></h1>
+<img alt="../_images/import_export_settings.jpg" src="../_images/import_export_settings.jpg" />
+<p>When updating the Plating Generator, you can export and import your <a class="reference internal" href="../usage/presets.html#presets"><span class="std std-ref">Presets</span></a>, <a class="reference internal" href="../greeble_libraries/greeble_library.html#greeble-libraries"><span class="std std-ref">Greeble Libraries</span></a> and other general settings.  Your settings will be saved to a .JSON file.</p>
+<section id="to-export-settings">
+<h2>To Export Settings<a class="headerlink" href="#to-export-settings" title="Permalink to this headline"></a></h2>
+<ol class="arabic simple">
+<li><p>Go to <em>Edit - Preferences</em> in Blender.</p></li>
+<li><p>Go to the <em>Add-Ons</em> section.</p></li>
+<li><p>Search for the <em>Plating and Greebles Generator</em> add-on.</p></li>
+<li><p>At the bottom, there will be an <em>Export Settings</em> button.</p></li>
+<li><p>Click the button and choose the directory and name of the JSON file.</p></li>
+<li><p>Click <em>Export Settings</em>.</p></li>
+</ol>
 </section>
-<section id="cancelling-the-operation">
-<h2>Cancelling the operation<a class="headerlink" href="#cancelling-the-operation" title="Permalink to this headline"></a></h2>
-<p>Whilst running, there is a file called <strong>running.ack</strong> that you can use to stop the iterator and unfreeze Blender.  Remove running.ack, and after rendering an image Blender will check for the presence of this file.  If this file no longer exists, it will cancel the operation.</p>
-<p>This is similar to the iterator function in <a class="reference external" href="https://blendermarket.com/products/kit-ops-synth">KIT OPS SYNTH</a>.</p>
+<section id="to-import-settings">
+<h2>To Import Settings<a class="headerlink" href="#to-import-settings" title="Permalink to this headline"></a></h2>
+<ol class="arabic simple">
+<li><p>Go to <em>Edit - Preferences</em> in Blender.</p></li>
+<li><p>Go to the <em>Add-Ons</em> section.</p></li>
+<li><p>Search for the <em>Plating and Greebles Generator</em> add-on.</p></li>
+<li><p>At the bottom, there will be an <em>Import Settings</em> button.</p></li>
+<li><p>Click the button and navigate to the JSON file you exported earlier.</p></li>
+<li><p>Click <em>Import Settings</em>.</p></li>
+</ol>
 </section>
 </section>
 
@@ -115,8 +115,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../anim_nodes/anim_nodes_overview.html" class="btn btn-neutral float-left" title="Animation Nodes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../modifiers/modifiers.html" class="btn btn-neutral float-right" title="Modifiers and Tools" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../baking/baking.html" class="btn btn-neutral float-left" title="Baking" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../contact/contact.html" class="btn btn-neutral float-right" title="Contact" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

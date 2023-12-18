@@ -1,3 +1,5 @@
+.. _greeble_libraries:
+
 ##########################
 Greeble Libraries
 ##########################

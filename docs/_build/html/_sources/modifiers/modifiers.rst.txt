@@ -17,7 +17,15 @@ Modifiers and Tools
 
     Captured in realtime, the modifiers can out perform standard python code.
 
-The Plating Generator comes with a set of Blender 4.0 Modifiers and Tools that add panelling effects and greebles on top of the base mesh, also in a non-destructive way. These are completely separate to the other Plating Generator workflows.
+
+|mod_vid|
+
+.. |mod_vid| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5E1CqhxyMUk?si=4WQQGy4FzOYpbsWC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+The Plating Generator comes with a set of Blender 4.0 Modifiers and Tools that add panelling effects and greebles on top of the base mesh in a non-destructive way. These are completely separate to the other Plating Generator workflows.
 
 .. _adding-blender-asset-library:
 
@@ -36,12 +44,13 @@ The modifiers and tools are added as Blender Assets:
 #. In Blender, go to ``Edit`` > ``Preferences`` in the top menu.
 #. In the Preferences window, click on the "File Paths" section.
 #. Within File Paths, find the "Asset Libraries" section.
-#. Click the "Add" button to create a new library entry.
+#. Click the "+" button to create a new library entry.
 #. A file browser will open. Navigate to where you extracted the zip file.
 #. Select the folder that contains the assets.
-#. Click "Accept" or a similar confirmation button.
-#. (Optional) Back in the Asset Libraries section, name your new asset library for easy identification.
+#. Click "Add Asset Library".
+#. In the Asset Libraries section, name your new asset library for easy identification.
 #. Click the "Save Preferences" button to save your changes.
+#. Restart Blender.
 
 **********************************
 Using the Modifiers and Tools
@@ -61,7 +70,7 @@ To add any one of the modifiers:
         The Panelling modifier being added.  Note the cube has been subdivided to add faces the modifier can work with.
 
 
-#. Once the modifier is added, you can use it like a regular Blender modifier.  See the :ref:`Modifiers and Tools list` below. Parameters are documented as tooltips on each of the individual inputs
+#. Once the modifier is added, you can use it like a regular Blender modifier.  See the :ref:`Modifiers and Tools list` below. Parameters are documented as tooltips on each of the individual inputs.
 
     .. image:: ../images/modifier_seed_change.gif
 
@@ -135,7 +144,7 @@ Panelling
 .. figure:: ../images/modifier_panelling1.jpg
     :alt: Plating Generator modifiers
 
-The default Panelling modifier controlled by a random seed number. The *Point Factor* parameter randomly selects faces on the object, and then expands the selection based on the *Point Size*.
+The default Panelling modifier, controlled by a random seed number. The *Point Factor* parameter randomly selects faces on the object, and then expands the selection based on the *Point Size*.
 
 This effect is then repeated multiple times using the *Point Layers* parameter.  Then, this pattern is cutout to create the panelling effect.
 
@@ -183,6 +192,11 @@ Greebles
     The greebles modifier set to a density of 5000.
 
 A modifier that adds random objects to the surface.  A default collection of objects is imported, which can be changed to a different collection on the modifier settings.
+
+.. note::
+    **Disappearing Greebles**
+
+    This can happen when you apply the Greebles modifier.  To fix this, tick the **Realize Instances** option on the modifier before applying it.  This will take up more memory but should keep the Greebles when you apply the modifier.
 
 ==============================
 Pipes

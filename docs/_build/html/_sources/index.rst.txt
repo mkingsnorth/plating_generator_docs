@@ -95,6 +95,7 @@ This add-on greatly speeds up the process, allowing you to quickly create a sele
    iterator/iterator
    modifiers/modifiers
    baking/baking
+   import_export/import_export
    contact/contact
 
 Indices and tables
