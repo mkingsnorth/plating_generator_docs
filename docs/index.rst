@@ -91,9 +91,9 @@ This add-on greatly speeds up the process, allowing you to quickly create a sele
    selection/updating_selection
    usage/presets
    greeble_libraries/greeble_library
-   anim_nodes/anim_nodes_overview
    iterator/iterator
    modifiers/modifiers
+   anim_nodes/anim_nodes_overview
    baking/baking
    import_export/import_export
    contact/contact

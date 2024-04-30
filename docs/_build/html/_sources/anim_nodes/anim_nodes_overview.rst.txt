@@ -2,6 +2,11 @@
 Animation Nodes
 ##########################
 
+.. warning:: 
+    **Deprecated** 
+    
+    From Blender 4+, The Plating Generator's newer :ref:`Modifiers and Tools<modifiers>` have replaced many of the features used by Animation Nodes.  The Animation Nodes part of the Plating Generator is planned to be removed in a future release.  Please use the :ref:`Modifiers and Tools<modifiers>` instead.
+
 .. figure:: ../images/animation_nodes_screenshot.gif
   :alt: Animation Nodes Screenshot
 
@@ -10,7 +15,7 @@ There is also the option to use the add-on as a node in the powerful |Animation 
 
 There are two available nodes: One for generating plates and one for generating greebles separately.
 
-The :ref:`properties` are similar to those of the main add-on.  
+The properties are similar to those of the main add-on.  
 
 The 'Generate Plates' node looks like this:
 
