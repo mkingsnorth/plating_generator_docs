@@ -82,6 +82,14 @@ To add any one of the modifiers:
         A Bevel modifier can be added to highlight the Panelling effect.  
         
         If the Bevel modifier is set to **Weight** mode, any weight controls set in the Plating Generator modifier will be used.
+
+.. tip:: 
+    .. figure:: ../images/smoothing_issues.jpg
+        :alt: Plating Generator modifiers smooting issues.
+
+        **Smoothing Issues**
+
+        Fix Smoothing Issues with the *Smooth By Angle* modifier.  When using the Plating Generator modifier, smooth shaded meshes can look dark around the edges.  Here, the Torus on the right is exactly the same apart from having a *Smooth By Angle* modifier added.
         
 ========================================
 Using the Tools

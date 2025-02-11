@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Getting Started &mdash; Plating Generator  documentation</title>
@@ -12,9 +12,8 @@
   <![endif]-->
   
         <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -83,8 +82,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Getting Started</li>
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Getting Started</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/usage/quickstart.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -95,7 +94,7 @@
            <div itemprop="articleBody">
              
   <section id="getting-started">
-<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline"></a></h1>
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this heading"></a></h1>
 <p>The tool can be used in either <em>Object</em> or <em>Edit Face</em> Mode, with faces selected.</p>
 <figure class="align-default" id="id1">
 <img alt="Plating Generator Properties Panel" src="../_images/using_menu.jpg" />
@@ -127,20 +126,20 @@
 </ol>
 <p>These options are described below.</p>
 <section id="non-destructive-workflow">
-<h2>Non Destructive Workflow<a class="headerlink" href="#non-destructive-workflow" title="Permalink to this headline"></a></h2>
+<h2>Non Destructive Workflow<a class="headerlink" href="#non-destructive-workflow" title="Permalink to this heading"></a></h2>
 <p>If you don’t want to damage your original object, these options will create a new separate object, called <em>&lt;original name&gt; plating</em>, and add a base Level of either Plates or Greebles:</p>
 <section id="add-plates">
-<h3>Add Plates<a class="headerlink" href="#add-plates" title="Permalink to this headline"></a></h3>
+<h3>Add Plates<a class="headerlink" href="#add-plates" title="Permalink to this heading"></a></h3>
 <p>Selecting the <em>Add Plates</em> option will automatically add a basic plating pattern in the form of a new Blender object:</p>
 <img alt="Adding Plates" src="../_images/add_plates_1.gif" />
 </section>
 <section id="add-greebles">
-<h3>Add Greebles<a class="headerlink" href="#add-greebles" title="Permalink to this headline"></a></h3>
+<h3>Add Greebles<a class="headerlink" href="#add-greebles" title="Permalink to this heading"></a></h3>
 <p>Selecting the <em>Add Greebles</em> option will automatically add a set of basic greebles in the form of a new Blender object:</p>
 <img alt="Adding Greebles" src="../_images/add_greebles_1.gif" />
 </section>
 <section id="changing-properties-for-object">
-<h3>Changing Properties for Object<a class="headerlink" href="#changing-properties-for-object" title="Permalink to this headline"></a></h3>
+<h3>Changing Properties for Object<a class="headerlink" href="#changing-properties-for-object" title="Permalink to this heading"></a></h3>
 <p>When you have either added Plating or Greebles you can then change the object’s properties using the built-in side panel available on the right hand side when the new object is selected.  If this is not visible, press the <em>n</em> key in the viewport to display Blender’s properties panel, and select the <em>Plating Generator</em> side tab:</p>
 <figure class="align-default" id="id2">
 <img alt="Plates Properties Panel" src="../_images/add_plates_2.jpg" />
@@ -152,7 +151,7 @@
 </section>
 </section>
 <section id="destructive-workflow">
-<h2>Destructive Workflow<a class="headerlink" href="#destructive-workflow" title="Permalink to this headline"></a></h2>
+<h2>Destructive Workflow<a class="headerlink" href="#destructive-workflow" title="Permalink to this heading"></a></h2>
 <p>This will edit the existing object, which can be advantageous if you wish to create deeper plates or embedded greebles.  However it is more difficult to undo the operation.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -160,23 +159,23 @@
 <p>During this mode, which is a one-time operation, Blender’s panel can disappears if you accidentally click outside.  You can bring it back as long as you have not performed another action by pressing <em>F9</em>.</p>
 </div>
 <section id="add-plates-to-mesh">
-<h3>Add Plates to Mesh<a class="headerlink" href="#add-plates-to-mesh" title="Permalink to this headline"></a></h3>
+<h3>Add Plates to Mesh<a class="headerlink" href="#add-plates-to-mesh" title="Permalink to this heading"></a></h3>
 <p>Selecting the <em>Add Plates to Mesh</em> option will automatically add a basic plating pattern directly on the mesh:</p>
 <img alt="Adding Greebles" src="../_images/add_plates_to_mesh_1.gif" />
 </section>
 <section id="add-greebles-to-mesh">
-<h3>Add Greebles to Mesh<a class="headerlink" href="#add-greebles-to-mesh" title="Permalink to this headline"></a></h3>
+<h3>Add Greebles to Mesh<a class="headerlink" href="#add-greebles-to-mesh" title="Permalink to this heading"></a></h3>
 <p>Selecting the <em>Add Greebles to Mesh</em> option will automatically add greebles directly on the mesh:</p>
 <img alt="Adding Greebles" src="../_images/add_greebles_to_mesh_1.gif" />
 </section>
 <section id="add-panel-lines-to-mesh">
-<h3>Add Panel Lines to Mesh<a class="headerlink" href="#add-panel-lines-to-mesh" title="Permalink to this headline"></a></h3>
+<h3>Add Panel Lines to Mesh<a class="headerlink" href="#add-panel-lines-to-mesh" title="Permalink to this heading"></a></h3>
 <p>Selecting the <em>Add Panel Lines to Mesh</em> option will automatically add panel lines using selected edges:</p>
 <img alt="Adding Panel Lines" src="../_images/add_panel_lines_to_mesh.gif" />
 <p>This uses the same <span class="xref std std-ref">properties</span> as the <span class="xref std std-ref">Add Plates to Mesh</span> function</p>
 </section>
 <section id="changing-properties-for-operation">
-<h3>Changing Properties for Operation<a class="headerlink" href="#changing-properties-for-operation" title="Permalink to this headline"></a></h3>
+<h3>Changing Properties for Operation<a class="headerlink" href="#changing-properties-for-operation" title="Permalink to this heading"></a></h3>
 <p>You can then change the object’s <span class="xref std std-ref">properties</span> using the bottom left hand side panel.  You may need to expand the panel to see all the options:</p>
 <img alt="Properties Panel" src="../_images/add_greebles_to_mesh_2.gif" />
 <p>These properties are descibed in more detail <span class="xref std std-ref">here</span>.</p>
