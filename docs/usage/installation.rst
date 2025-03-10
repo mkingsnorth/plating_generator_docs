@@ -14,7 +14,7 @@ You will be provided with the following files:
 
 * Libraries and samples (*do unzip*!):
   
-  * **plating_generator_modifier_assets.unzip.me.zip** - a set of Blender 4.0 :ref:`Plating Generator modifiers<modifiers>`.  These are installed separately from the main add-on (:ref:`follow this link<modifiers>`for instructions).
+  * **plating_generator_modifier_assets.unzip.me.zip** - a set of Blender 4.0 :ref:`Plating Generator modifiers<modifiers>`.  These are installed separately from the main add-on (:ref:`follow this link<modifiers>` for instructions).
   * **greeble_libraries.zip** - a bonus set of greeble libraries.
   * **plating_generator_greebles_samples_unzip.me.zip** - A set of sample.blend files demonstrating the main add-on's setup.
   * **animation_nodes_plating_gen_samples_unzip.me.zip** - A set of sample.blend files demonstrating the :ref:`animation node setup<Animation Nodes>` (|Animation Nodes| required).
